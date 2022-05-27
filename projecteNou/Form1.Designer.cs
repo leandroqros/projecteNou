@@ -30,32 +30,48 @@ namespace projecteNou
         private void InitializeComponent()
         {
             this.btLeandro = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btLeandro
             // 
-            this.btLeandro.Location = new System.Drawing.Point(46, 41);
+            this.btLeandro.Location = new System.Drawing.Point(52, 51);
+            this.btLeandro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btLeandro.Name = "btLeandro";
-            this.btLeandro.Size = new System.Drawing.Size(75, 23);
+            this.btLeandro.Size = new System.Drawing.Size(84, 29);
             this.btLeandro.TabIndex = 0;
             this.btLeandro.Text = "button1";
             this.btLeandro.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(418, 210);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(113, 24);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btLeandro);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btLeandro;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
